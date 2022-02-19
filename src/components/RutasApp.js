@@ -9,7 +9,8 @@ import Numeros from '../pages/Numeros'
 import TemplatesStrings from '../pages/TemplatesStrings'
 import DarkMode from './DarkMode'
 import { ThemeProvider } from '../context/ThemeContext'
-
+import UndefinedNullNaN from '../pages/ValoresIndefinidos'
+import ValoresIndefinidos from '../pages/ValoresIndefinidos'
 
 
 const RutasApp = () => {
@@ -22,18 +23,13 @@ const RutasApp = () => {
           <Header/>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route
-              path="/CaracteristicasGramatica"
-              element={<CaracteristicasGramatica />}
-            />
+            <Route path="/CaracteristicasGramatica" element={<CaracteristicasGramatica />}/>
             <Route path="/Variables" element={<Variables />}></Route>
             <Route path="/CadenasTexto" element={<CadenasTexto />}></Route>
             <Route path="/Constantes" element={<Constantes />}></Route>
             <Route path="/Numeros" element={<Numeros />}></Route>
-            <Route
-              path="/TemplatesStrings"
-              element={<TemplatesStrings />}
-            ></Route>
+            <Route path="/TemplatesStrings" element={<TemplatesStrings />}></Route>
+            <Route path="ValoresIndefinidos" element={<ValoresIndefinidos/>}></Route>
           </Routes>
         </ThemeProvider>
       </HashRouter>
