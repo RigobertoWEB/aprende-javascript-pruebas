@@ -6,7 +6,7 @@ import Menu from "../components/Menu";
 import Variables from "./Variables";
 import { useContext } from "react";
 import ThemeContext from "../context/ThemeContext";
-import logoJavascript from '../img/logo-javascript.png';
+import logoJavascript from "../img/logo-javascript.png";
 
 const Home = () => {
   const { theme } = useContext(ThemeContext);
@@ -25,7 +25,7 @@ const Home = () => {
 
         <Row className={theme}>
           <Col xs={2} className="menu-javascript-a p-0 h-100">
-            <Menu className={theme}/>
+            <Menu className={theme} />
           </Col>
           <Col xs={10}>
             <div className="contenido">
@@ -63,6 +63,14 @@ const Home = () => {
                 Oracle en los Estados Unidos y otros países, Sin embargo, los
                 dos lenguajes de programación tienen sintaxis, semántica y usos
                 muy diferentes.
+              </p>
+
+              <p>
+                JavaScript se ejecuta en el lado del cliente de la web, y se
+                puede utilizar para estilizar/programar cómo se comportan las
+                páginas web cuando ocurre un evento. JavaScript es un potente
+                lenguaje de scripts y fácil de aprender, ampliamente utilizado
+                para controlar el comportamiento de las páginas web.
               </p>
             </div>
           </Col>
