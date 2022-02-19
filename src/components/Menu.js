@@ -30,6 +30,7 @@ const Menu = () => {
             <Link to="/Numeros" className="enlaces-menu">Números</Link>
             <Link to="/ValoresIndefinidos" className="enlaces-menu">Undefined, Null, NaN</Link>
             {/* <Link to="/UndefinedNullNaN" className="enlace-menu">Undefined, Null, NaN</Link> */}
+            <Link to="/Boleans" className="enlaces-menu">Boleans</Link>
             {/* <a href="#section1" className="enlaces-menu">Gramática</a>
             <a href="#section1" className="enlaces-menu">Variables</a>
             <a href="#section1" className="enlaces-menu">Constantes</a>

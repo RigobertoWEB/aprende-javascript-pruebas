@@ -11,6 +11,7 @@ import DarkMode from './DarkMode'
 import { ThemeProvider } from '../context/ThemeContext'
 import UndefinedNullNaN from '../pages/ValoresIndefinidos'
 import ValoresIndefinidos from '../pages/ValoresIndefinidos'
+import Boleans from '../pages/Boleans'
 
 
 const RutasApp = () => {
@@ -30,6 +31,8 @@ const RutasApp = () => {
             <Route path="/Numeros" element={<Numeros />}></Route>
             <Route path="/TemplatesStrings" element={<TemplatesStrings />}></Route>
             <Route path="ValoresIndefinidos" element={<ValoresIndefinidos/>}></Route>
+            <Route path="/TemplatesStrings" element={<TemplatesStrings />}></Route>
+            <Route path="/Boleans" element={<Boleans/>}></Route>
           </Routes>
         </ThemeProvider>
       </HashRouter>
