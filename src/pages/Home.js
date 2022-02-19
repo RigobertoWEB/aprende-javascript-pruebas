@@ -72,6 +72,16 @@ const Home = () => {
                 lenguaje de scripts y fácil de aprender, ampliamente utilizado
                 para controlar el comportamiento de las páginas web.
               </p>
+
+              <p>
+                  JavaScript puede funcionar como un lenguaje orientado a objetos
+                  (en-US) y procedimental. Los objetos se crean mediante programación
+                  en JavaScript, adjuntando métodos y propiedades a objetos que de otro
+                  modo en tiempo de ejecución estarían vacíos, a diferencia de las
+                  definiciones de clases sintácticas comunes en lenguajes compilados
+                  como C++ y Java. Una vez que se ha construido un objeto, se puede
+                  utilizar como plano (o prototipo) para crear objetos similares.
+              </p>
             </div>
           </Col>
         </Row>
