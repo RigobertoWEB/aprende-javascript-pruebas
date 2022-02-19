@@ -9,6 +9,7 @@ import Numeros from '../pages/Numeros'
 import TemplatesStrings from '../pages/TemplatesStrings'
 import DarkMode from './DarkMode'
 import { ThemeProvider } from '../context/ThemeContext'
+import Boleans from '../pages/Boleans'
 
 
 
@@ -34,6 +35,7 @@ const RutasApp = () => {
               path="/TemplatesStrings"
               element={<TemplatesStrings />}
             ></Route>
+            <Route path="/Boleans" element={<Boleans/>}></Route>
           </Routes>
         </ThemeProvider>
       </HashRouter>

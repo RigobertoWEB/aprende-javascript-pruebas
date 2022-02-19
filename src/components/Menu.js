@@ -28,6 +28,7 @@ const Menu = () => {
             <Link to="/CadenasTexto" className="enlaces-menu">Cadenas de texto</Link>
             <Link to="/TemplatesStrings" className="enlaces-menu">Templates Strings</Link>
             <Link to="/Numeros" className="enlaces-menu">Números</Link>
+            <Link to="/Boleans" className="enlaces-menu">Boleans</Link>
             {/* <a href="#section1" className="enlaces-menu">Gramática</a>
             <a href="#section1" className="enlaces-menu">Variables</a>
             <a href="#section1" className="enlaces-menu">Constantes</a>
